@@ -12,11 +12,13 @@ I've worked in product management since 2018, and the past two years have been a
 
 Across my roles that adds up to 7.13% higher day-seven ARPU, 57% quarterly growth in organic subscriptions, 17% lower churn and £6.5M+ in P&L impact.
 
+Shipped a live AI product (YAGO, React and FastAPI) end to end using AI coding tools: I learn new tools fast and ship things people use.
+
 ---
 
-## What I'm building: YAGO
+## 🚀 Featured project: [YAGO](https://www.yagocareers.io)
 
-[YAGO](https://yagocareers.io) is AI career intelligence for remote work in EMEA. I co-founded it and built the product.
+An AI career platform for job seekers, live in English and Romanian: CV scanner and improver, AI interview practice, career-direction tools and a Chrome extension.
 
 - CV Lab: upload a PDF and get an ATS score, strengths and gaps, and rewrites for weak bullet points.
 - Interview practice: record an answer on camera and get a score out of 100, your strongest moment and the one change to make next time.
@@ -24,16 +26,24 @@ Across my roles that adds up to 7.13% higher day-seven ARPU, 57% quarterly growt
 - Remote jobs: live listings filtered by country.
 - For universities: careers teams see their members' scores and progress.
 
+**Stack:** React, Vite, FastAPI, PostgreSQL, Claude and OpenAI models, Stripe, GitHub Actions
+
+**How I built it:** end to end with AI coding assistants, with automated checks on every change.
+
 The first three CV scans and the first scored interview answer are free. Try it at [yagocareers.io](https://yagocareers.io).
+
+*The code is in a private repo. Happy to walk through the architecture on a call.*
 
 ---
 
 ## Experience
 
-### Co-founder and Product Lead · YAGO
+### Co-founder and Developer · YAGO
 Present
 
-Building and shipping YAGO, the AI career platform described above, from product and pricing to the code.
+- Built and launched a bilingual (EN/RO) web product end to end with AI coding tools (Claude Code): CV scanner, AI interview practice, career-direction tools and a Chrome extension.
+- Run it in production with payments, error monitoring, scheduled data jobs and automatic fallback between two AI providers.
+- CI gates every change. Wrote a checked documentation system for AI coding agents and benchmarked it: a small measured gain on trap questions, none on simple lookups.
 
 ### Fractional Product Lead · Zendocs and PrimePDF, Ruby Labs
 Feb 2026 – Present
